@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
 import { businessConfig } from '@/lib/config';
 
 export default function HomePage() {
