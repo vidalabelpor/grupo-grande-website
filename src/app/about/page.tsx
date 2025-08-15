@@ -1,27 +1,21 @@
-import { NextSeo } from 'next-seo';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Grupo Grande Inc. - 25+ Years of Fiber Optic Excellence",
+  description: "Leading fiber optic infrastructure company since 1998. Miami-based with 25+ years of proven expertise in network design, manufacturing, and deployment across North America. Meet our leadership team.",
+  keywords: "Grupo Grande history, fiber optic company leadership, telecommunications infrastructure expertise, Miami fiber company, network design experience, fiber manufacturing capabilities",
+  openGraph: {
+    title: "About Grupo Grande Inc. - Fiber Optic Infrastructure Leaders",
+    description: "Leading fiber optic infrastructure company since 1998. Miami-based with 25+ years of proven expertise serving telecommunications providers across North America.",
+    url: 'https://grupogrande.com/about',
+    siteName: 'Grupo Grande Inc.',
+  },
+};
 
 export default function AboutPage() {
   return (
     <>
-      <NextSeo
-        title="About Grupo Grande Inc. - 25+ Years of Fiber Optic Excellence"
-        description="Leading fiber optic infrastructure company since 1998. Miami-based with 25+ years of proven expertise in network design, manufacturing, and deployment across North America. Meet our leadership team."
-        canonical="https://grupogrande.com/about"
-        openGraph={{
-          title: "About Grupo Grande Inc. - Fiber Optic Infrastructure Leaders",
-          description: "Leading fiber optic infrastructure company since 1998. Miami-based with 25+ years of proven expertise serving telecommunications providers across North America.",
-          url: 'https://grupogrande.com/about',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'Grupo Grande history, fiber optic company leadership, telecommunications infrastructure expertise, Miami fiber company, network design experience, fiber manufacturing capabilities',
-          },
-        ]}
-      />
-      
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
@@ -42,7 +36,7 @@ export default function AboutPage() {
                 <h2 className="text-4xl font-bold mb-8">Our Story</h2>
                 <div className="space-y-6 text-gray-600">
                   <p>
-                    Founded in 1998 in Miami's vibrant business ecosystem, Grupo Grande began with a simple but powerful vision: 
+                    Founded in 1998 in Miami&apos;s vibrant business ecosystem, Grupo Grande began with a simple but powerful vision: 
                     to bridge the digital divide through superior fiber optic infrastructure that empowers communities and drives economic growth.
                   </p>
                   <p>
@@ -51,7 +45,7 @@ export default function AboutPage() {
                     and project financing. Our growth reflects our unwavering commitment to innovation, quality, and customer success.
                   </p>
                   <p>
-                    From our Miami headquarters, we've expanded our reach across North America, with particular expertise in 
+                    From our Miami headquarters, we&apos;ve expanded our reach across North America, with particular expertise in 
                     hurricane-resistant designs that serve coastal and Caribbean markets. Every project teaches us something new, 
                     and we bring those lessons to benefit all our clients.
                   </p>
