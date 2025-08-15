@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function EnterpriseNetworksPage() {
   return (
     <>
-      <NextSeo
-        title="Enterprise Private Fiber Networks - Campus & Multi-Site Connectivity - Grupo Grande Inc."
-        description="Mission-critical fiber infrastructure for enterprises. Private fiber networks, campus connectivity, and multi-site deployments that support digital transformation, cloud migration, and competitive advantage through superior network performance."
-        canonical="https://grupogrande.com/industries/enterprise-networks"
-        openGraph={{
-          title: "Enterprise Private Fiber Networks - Mission-Critical Infrastructure",
-          description: "Mission-critical fiber infrastructure for enterprises. Private networks, campus connectivity, and multi-site deployments for digital transformation.",
-          url: 'https://grupogrande.com/industries/enterprise-networks',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'enterprise private fiber networks, campus fiber infrastructure, corporate network modernization, private fiber deployment, enterprise connectivity solutions, multi-site fiber networks, business fiber infrastructure, corporate telecommunications',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

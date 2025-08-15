@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function FiberCableManufacturingPage() {
   return (
     <>
-      <NextSeo
-        title="Fiber Optic Cable Manufacturing - Custom Fiber Cables - Grupo Grande Inc."
-        description="Professional fiber optic cable manufacturing with custom specifications. Quality-controlled production, rapid delivery, and cost-effective supply chain solutions for telecom providers across North America."
-        canonical="https://grupogrande.com/services/fiber-cable-manufacturing"
-        openGraph={{
-          title: "Fiber Optic Cable Manufacturing - Custom Production Solutions",
-          description: "Professional fiber optic cable manufacturing with custom specifications. Quality-controlled production and rapid delivery for telecom infrastructure projects.",
-          url: 'https://grupogrande.com/services/fiber-cable-manufacturing',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'fiber optic cable manufacturing, custom fiber cables, fiber cable supplier, optical fiber production, telecom cable manufacturing, ADSS cables, loose tube cables, tight buffered cables, outdoor fiber cables',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

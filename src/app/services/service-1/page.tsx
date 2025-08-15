@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function Service1Page() {
   return (
     <>
-      <NextSeo
-        title="Service 1 - Professional Local Services in [Your City]"
-        description="Expert Service 1 in [Your City]. Professional, reliable, and affordable. Serving [Your City] and surrounding areas. Call today for a free quote!"
-        canonical="https://yourdomain.com/services/service-1"
-        openGraph={{
-          title: "Service 1 - Professional Local Services in [Your City]",
-          description: "Expert Service 1 in [Your City]. Professional, reliable, and affordable. Serving [Your City] and surrounding areas.",
-          url: 'https://yourdomain.com/services/service-1',
-          siteName: 'Your Business Name',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'Service 1, [Your City], local service, professional service, reliable service, affordable service',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

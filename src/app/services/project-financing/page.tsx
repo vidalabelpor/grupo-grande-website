@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function ProjectFinancingPage() {
   return (
     <>
-      <NextSeo
-        title="FTTH Project Financing - Fiber Infrastructure Funding - Grupo Grande Inc."
-        description="Flexible financing solutions for fiber-to-the-home deployments. Make FTTX accessible with proven ROI models, BEAD funding assistance, and payment structures that work for your business."
-        canonical="https://grupogrande.com/services/project-financing"
-        openGraph={{
-          title: "FTTH Project Financing - Infrastructure Funding Solutions",
-          description: "Flexible financing solutions for fiber-to-the-home deployments. Make FTTX accessible with proven ROI models and funding assistance.",
-          url: 'https://grupogrande.com/services/project-financing',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'FTTH project financing, fiber infrastructure funding, broadband deployment loans, telecom infrastructure financing, BEAD funding assistance, fiber network investment, municipal broadband financing',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

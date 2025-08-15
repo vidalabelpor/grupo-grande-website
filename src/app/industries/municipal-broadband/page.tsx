@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function MunicipalBroadbandPage() {
   return (
     <>
-      <NextSeo
-        title="Municipal Broadband Networks - Smart City Fiber Infrastructure - Grupo Grande Inc."
-        description="Comprehensive municipal broadband solutions and smart city fiber infrastructure. BEAD funding expertise, public-private partnerships, and proven track record helping communities bridge the digital divide with sustainable, revenue-generating networks."
-        canonical="https://grupogrande.com/industries/municipal-broadband"
-        openGraph={{
-          title: "Municipal Broadband Networks - Smart City Fiber Infrastructure Solutions",
-          description: "Comprehensive municipal broadband solutions and smart city fiber infrastructure. BEAD funding expertise and public-private partnerships.",
-          url: 'https://grupogrande.com/industries/municipal-broadband',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'municipal broadband networks, smart city fiber infrastructure, public broadband initiatives, BEAD funding assistance, municipal fiber deployment, community broadband solutions, digital divide solutions, public-private broadband partnerships',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

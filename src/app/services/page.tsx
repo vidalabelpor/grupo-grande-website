@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function ServicesPage() {
   return (
     <>
-      <NextSeo
-        title="Fiber Optic Infrastructure Services - Grupo Grande Inc."
-        description="Complete fiber optic infrastructure solutions: network design, FTTX deployment, cable manufacturing, and project financing. 25+ years of proven expertise serving North America."
-        canonical="https://grupogrande.com/services"
-        openGraph={{
-          title: "Fiber Optic Infrastructure Services - Complete Solutions",
-          description: "Complete fiber optic infrastructure solutions: network design, FTTX deployment, cable manufacturing, and project financing.",
-          url: 'https://grupogrande.com/services',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'fiber optic services, network design, FTTX deployment, fiber cable manufacturing, project financing, telecommunications infrastructure, broadband deployment',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

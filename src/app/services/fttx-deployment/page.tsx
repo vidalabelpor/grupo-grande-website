@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function FTTXDeploymentPage() {
   return (
     <>
-      <NextSeo
-        title="FTTX Deployment Services - Fiber to the Home Installation - Grupo Grande Inc."
-        description="Professional FTTX deployment and fiber-to-the-home installation services. Complete turnkey solutions from design to activation. Serving telecom providers with proven 3-5x ROI results."
-        canonical="https://grupogrande.com/services/fttx-deployment"
-        openGraph={{
-          title: "FTTX Deployment Services - Professional Fiber Installation",
-          description: "Professional FTTX deployment and fiber-to-the-home installation services. Complete turnkey solutions from design to activation.",
-          url: 'https://grupogrande.com/services/fttx-deployment',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'FTTX deployment, fiber to the home installation, FTTH deployment services, fiber optic installation, broadband deployment, fiber network construction, telecom infrastructure deployment, PON installation',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

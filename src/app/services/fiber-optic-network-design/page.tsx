@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function FiberOpticNetworkDesignPage() {
   return (
     <>
-      <NextSeo
-        title="Fiber Optic Network Design & Engineering Services - Grupo Grande Inc."
-        description="Expert fiber optic network design for FTTX deployments. Custom network architecture, capacity planning, and cost optimization. Serving telecom providers across North America with 25+ years of proven expertise."
-        canonical="https://grupogrande.com/services/fiber-optic-network-design"
-        openGraph={{
-          title: "Fiber Optic Network Design & Engineering Services",
-          description: "Expert fiber optic network design for FTTX deployments. Custom network architecture, capacity planning, and cost optimization.",
-          url: 'https://grupogrande.com/services/fiber-optic-network-design',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'fiber optic network design, FTTX network engineering, network architecture consulting, fiber deployment planning, telecom network design, FTTH network design, passive optical network design, network topology optimization',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

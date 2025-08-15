@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function ContactPage() {
   return (
     <>
-      <NextSeo
-        title="Contact Grupo Grande Inc. - Fiber Optic Infrastructure Experts"
-        description="Contact our fiber optic infrastructure experts in Miami, Florida. Call (305) 555-FIBER for immediate consultation or request a project assessment. 24/7 emergency support available."
-        canonical="https://grupogrande.com/contact"
-        openGraph={{
-          title: "Contact Grupo Grande Inc. - Fiber Infrastructure Experts",
-          description: "Contact our fiber optic infrastructure experts in Miami, Florida. 24/7 emergency support and immediate consultation available.",
-          url: 'https://grupogrande.com/contact',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'contact Grupo Grande, fiber optic consultation, Miami telecommunications company, fiber infrastructure experts, network design consultation, FTTX deployment quote',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">

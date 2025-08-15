@@ -1,26 +1,8 @@
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
+
 
 export default function CableMSOPage() {
   return (
     <>
-      <NextSeo
-        title="Cable MSO Fiber Network Upgrades - DOCSIS 4.0 & Fiber Deep Solutions - Grupo Grande Inc."
-        description="Comprehensive fiber infrastructure solutions for cable MSOs. Navigate DOCSIS 4.0 requirements, competitive pressure, and cord-cutting challenges with proven fiber deep and FTTX strategies that deliver 400% ROI."
-        canonical="https://grupogrande.com/industries/cable-mso"
-        openGraph={{
-          title: "Cable MSO Fiber Network Upgrades - DOCSIS 4.0 & Competitive Solutions",
-          description: "Comprehensive fiber infrastructure solutions for cable MSOs. Navigate DOCSIS 4.0 requirements and competitive pressure with proven fiber strategies.",
-          url: 'https://grupogrande.com/industries/cable-mso',
-          siteName: 'Grupo Grande Inc.',
-        }}
-        additionalMetaTags={[
-          {
-            name: 'keywords',
-            content: 'cable MSO fiber upgrades, DOCSIS 4.0 deployment, fiber deep architecture, cable company fiber solutions, MSO network modernization, HFC network evolution, cable fiber infrastructure, competitive response strategies',
-          },
-        ]}
-      />
       
       <main className="min-h-screen py-20">
         <div className="container mx-auto px-4">
