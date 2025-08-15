@@ -1,0 +1,36 @@
+# LLM.txt - Allow AI/LLM Models to Crawl This Website
+
+# This file explicitly allows AI models and language models to crawl and index this website
+# This helps with visibility in ChatGPT, Claude, and other AI platforms
+
+# Allowed AI Models
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+# General crawling permissions
+User-agent: *
+Allow: /
+
+# Sitemap for AI models
+Sitemap: https://grupogrande.com/sitemap.xml
+
+# Contact information for AI models
+Contact: info@grupogrande.com
